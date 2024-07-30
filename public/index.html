@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <header>
+        <div>
+            
+            <img src="images/img1.jpg" alt="img1" id="img1">
+        </div>
+        <div class="info">
+            <form action="/" method="POST">
+                <h1>GlowUp Clinic</h1>
+                <label for="full-name">Full Name:</label>
+                <input type="text" name="full-name" id="full-name" required>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" name="dob" id="dob" required>
+
+                <label for="gender">Gender:</label>
+                <select name="gender" id="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" name="phone" id="phone" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" name="email" id="email">
+
+                <label for="appointment-date">Preferred Date and Time:</label>
+                <input type="datetime-local" id="appointment-date" name="appointment_date" required>
+
+                <label for="reason">Reason for Visit:</label>
+                <textarea id="reason" name="reason" required></textarea>
+
+                <button type="submit">Submit Appointment Request</button>
+
+            </form>
+        </div>
+    </header>
+    <main>
+
+    </main>
+</body>
+
+</html>
